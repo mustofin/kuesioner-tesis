@@ -18,7 +18,7 @@ const FormSection = () => {
           </p>
           
           {/* Open in new tab button */}
-          <a
+          {/* <a
             href={googleFormDirectUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -26,7 +26,7 @@ const FormSection = () => {
           >
             <ExternalLink className="w-4 h-4" />
             Buka di tab baru
-          </a>
+          </a> */}
         </div>
 
         {/* Google Form Embed Container */}
@@ -65,7 +65,7 @@ const FormSection = () => {
             <iframe
               src={googleFormUrl}
               width="100%"
-              height="100%"
+              height="1200"
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
