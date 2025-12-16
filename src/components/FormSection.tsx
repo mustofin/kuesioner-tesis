@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const FormSection = () => {
   // Replace this URL with your actual Google Form URL
-  const googleFormUrl = "https://docs.google.com/forms/d/e/1w4I6SEVqTYVWqanqDAKba4I13AVrkkvN5UfBJVg3vqM/viewform?embedded=true";
-  const googleFormDirectUrl = "https://docs.google.com/forms/d/e/1w4I6SEVqTYVWqanqDAKba4I13AVrkkvN5UfBJVg3vqM/viewform";
+  const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfV09SGJzUZwRKk1_kX4JKPGfMW7l7P5Eynj5L27TKBR_2BYw/viewform?embedded=true";
+  const googleFormDirectUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfV09SGJzUZwRKk1_kX4JKPGfMW7l7P5Eynj5L27TKBR_2BYw/viewform";
 
   return (
     <section id="form" className="py-16 bg-secondary/30">
