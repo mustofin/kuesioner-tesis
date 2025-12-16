@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mustofin.github.io/nama-repo",
+  "homepage": "https://mustofin.github.io/kuesioner-tesis",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
