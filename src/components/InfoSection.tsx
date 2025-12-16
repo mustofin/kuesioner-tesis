@@ -14,7 +14,7 @@ const infoItems = [
   {
     icon: Shield,
     label: "Kerahasiaan data",
-    value: "Seluruh jawaban bersifat anonim dan hanya digunakan untuk kepentingan akademik",
+    value: "Seluruh jawaban bersifat rahasia dan hanya digunakan untuk kepentingan akademik",
   },
   {
     icon: BarChart3,
