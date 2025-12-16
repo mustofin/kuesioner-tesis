@@ -45,7 +45,7 @@ const FormSection = () => {
           {/* Placeholder for Google Form - Replace the src with your actual form URL */}
           <div className="relative bg-card">
             {/* Placeholder State - Remove this when you have the actual form URL */}
-            <div className="min-h-[600px] flex flex-col items-center justify-center p-8 text-center">
+            {/* <div className="min-h-[600px] flex flex-col items-center justify-center p-8 text-center">
               <div className="w-20 h-20 rounded-2xl bg-primary/10 flex items-center justify-center mb-6">
                 <ArrowRight className="w-10 h-10 text-primary" />
               </div>
@@ -58,10 +58,10 @@ const FormSection = () => {
               <code className="text-xs bg-muted px-4 py-2 rounded-lg font-mono text-muted-foreground">
                 src/components/FormSection.tsx
               </code>
-            </div>
+            </div> */}
 
             {/* Uncomment this iframe when you have the actual Google Form URL */}
-            {/* 
+            
             <iframe
               src={googleFormUrl}
               width="100%"
@@ -74,7 +74,7 @@ const FormSection = () => {
             >
               Memuat…
             </iframe>
-            */}
+           
           </div>
         </div>
 
