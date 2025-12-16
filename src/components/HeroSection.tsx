@@ -42,7 +42,8 @@ const HeroSection = () => {
           </div>
           <div className="hidden sm:block w-px h-10 bg-primary-foreground/20" />
           <div className="flex items-center gap-2 text-primary-foreground/80">
-            <Users className="w-5 h-5" />
+            {/* <Users className="w-5 h-5" /> */}
+            <img src="/agile-malang-logo.png" alt="Agile Malang" className="w-5 h-5" />
             <span className="text-sm">Komunitas Agile Malang</span>
           </div>
         </div>
