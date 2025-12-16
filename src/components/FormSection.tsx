@@ -65,7 +65,7 @@ const FormSection = () => {
             <iframe
               src={googleFormUrl}
               width="100%"
-              height="800"
+              height="100%"
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
