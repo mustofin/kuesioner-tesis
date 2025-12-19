@@ -14,7 +14,7 @@ const FormSection = () => {
             Isi Kuesioner
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-6">
-            Silakan isi kuesioner di bawah ini. Estimasi waktu pengisian ± 8–10 menit.
+            Silahkan isi kuesioner di bawah ini. Estimasi waktu pengisian ± 8–10 menit.
           </p>
           
           {/* Open in new tab button */}
@@ -31,7 +31,7 @@ const FormSection = () => {
 
         {/* Google Form Embed Container */}
         <div className="card-elevated overflow-hidden">
-          <div className="bg-primary/5 p-4 border-b border-border">
+          {/* <div className="bg-primary/5 p-4 border-b border-border">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-destructive/60" />
               <div className="w-3 h-3 rounded-full bg-accent/60" />
@@ -40,7 +40,7 @@ const FormSection = () => {
                 Google Forms - Kuesioner Penelitian
               </span>
             </div>
-          </div>
+          </div> */}
           
           {/* Placeholder for Google Form - Replace the src with your actual form URL */}
           <div className="relative bg-card">
@@ -62,7 +62,7 @@ const FormSection = () => {
 
             {/* Uncomment this iframe when you have the actual Google Form URL */}
             
-            <iframe
+            {/* <iframe
               src={googleFormUrl}
               width="100%"
               height="3200"
@@ -73,16 +73,16 @@ const FormSection = () => {
               title="Kuesioner Penelitian"
             >
               Memuat…
-            </iframe>
+            </iframe> */}
            
           </div>
         </div>
 
         {/* Alternative CTA */}
         <div className="mt-8 text-center">
-          <p className="text-muted-foreground text-sm mb-4">
+          {/* <p className="text-muted-foreground text-sm mb-4">
             Mengalami kendala dengan form di atas?
-          </p>
+          </p> */}
           <Button
             variant="outline"
             asChild
