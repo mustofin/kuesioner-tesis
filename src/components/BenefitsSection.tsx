@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: FileText,
     title: "Laporan Insight",
-    description: '"State of AI Adoption in Malang\'s Digital Creative Industry (2025)" (ringkas 3–5 halaman)',
+    description: '"State of AI Adoption in Malang\'s Digital Creative Industry (2025)"',
   },
   {
     icon: Zap,
