@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuesioner Penelitian AI - Mustofin | Tesis Pascasarjana</title>
+  <meta name="description" content="Kuesioner penelitian tesis tentang dampak adopsi Generative AI terhadap kinerja middle manager di industri kreatif digital Kota Malang. Oleh Mustofin, Komunitas Agile Malang.">
+  <meta name="author" content="Mustofin">
+  <meta name="keywords" content="kuesioner, penelitian, AI, generative AI, middle manager, industri kreatif digital, Malang, tesis">
+  <link rel="canonical" href="https://kuesioner.mustofin.com">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kuesioner Penelitian AI - Mustofin">
+  <meta property="og:description" content="Penelitian tentang dampak adopsi Generative AI terhadap kinerja middle manager di industri kreatif digital Malang.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kuesioner.mustofin.com">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kuesioner Penelitian AI - Mustofin">
+  <meta name="twitter:description" content="Penelitian tentang dampak adopsi Generative AI terhadap kinerja middle manager di industri kreatif digital Malang.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  
+  <style>
+    /* CSS Variables */
+    :root {
+      --background: hsl(210, 20%, 98%);
+      --foreground: hsl(222, 47%, 11%);
+      --card: hsl(0, 0%, 100%);
+      --card-foreground: hsl(222, 47%, 11%);
+      --primary: hsl(222, 47%, 18%);
+      --primary-foreground: hsl(210, 40%, 98%);
+      --secondary: hsl(214, 32%, 91%);
+      --secondary-foreground: hsl(222, 47%, 18%);
+      --muted: hsl(214, 32%, 91%);
+      --muted-foreground: hsl(215, 16%, 47%);
+      --accent: hsl(38, 92%, 50%);
+      --accent-foreground: hsl(222, 47%, 11%);
+      --destructive: hsl(0, 84%, 60%);
+      --border: hsl(214, 32%, 91%);
+      --green-success: hsl(142, 71%, 45%);
+      --radius: 0.75rem;
+      
+      --shadow-md: 0 4px 6px -1px hsl(222 47% 11% / 0.1), 0 2px 4px -2px hsl(222 47% 11% / 0.1);
+    }
+    
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--foreground);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Outfit', sans-serif;
+    }
+    
+    /* Utility Classes */
+    .section-container {
+      max-width: 56rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .section-container {
+        padding: 0 1.5rem;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .section-container {
+        padding: 0 2rem;
+      }
+    }
+    
+    .card-elevated {
+      background-color: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid hsl(214 32% 91% / 0.5);
+      box-shadow: var(--shadow-md);
+    }
+    
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .animate-fade-in {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+    
+    .animate-fade-in-up {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+    
+    .animate-fade-in-delay-1 {
+      animation: fadeIn 0.6s ease-out 0.1s forwards;
+      opacity: 0;
+    }
+    
+    .animate-fade-in-delay-2 {
+      animation: fadeIn 0.6s ease-out 0.2s forwards;
+      opacity: 0;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+      position: relative;
+      background-color: var(--primary);
+      padding: 4rem 0;
+      overflow: hidden;
+    }
+    
+    @media (min-width: 640px) {
+      .hero-section {
+        padding: 6rem 0;
+      }
+    }
+    
+    .hero-bg-pattern {
+      position: absolute;
+      inset: 0;
+      opacity: 0.1;
+    }
+    
+    .hero-bg-circle-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 18rem;
+      height: 18rem;
+      background-color: var(--accent);
+      border-radius: 50%;
+      filter: blur(48px);
+      transform: translate(-50%, -50%);
+    }
+    
+    .hero-bg-circle-2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 24rem;
+      height: 24rem;
+      background-color: hsl(214, 75%, 55%);
+      border-radius: 50%;
+      filter: blur(48px);
+      transform: translate(50%, 50%);
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 10;
+    }
+    
+    .hero-badge {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-badge-inner {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 9999px;
+      background-color: hsl(210 40% 98% / 0.1);
+      border: 1px solid hsl(210 40% 98% / 0.2);
+      color: var(--primary-foreground);
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+    
+    .hero-title {
+      font-size: 1.875rem;
+      font-weight: 700;
+      color: var(--primary-foreground);
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .hero-title {
+        font-size: 2.25rem;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .hero-title {
+        font-size: 3rem;
+      }
+    }
+    
+    .hero-title-accent {
+      display: block;
+      margin-top: 0.5rem;
+      color: var(--accent);
+    }
+    
+    .hero-subtitle {
+      color: hsl(210 40% 98% / 0.8);
+      text-align: center;
+      font-size: 1.125rem;
+      max-width: 42rem;
+      margin: 0 auto 2rem;
+    }
+    
+    .hero-author {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .hero-author {
+        flex-direction: row;
+        gap: 2rem;
+      }
+    }
+    
+    .author-info {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    .author-avatar {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background-color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .author-avatar span {
+      color: var(--accent-foreground);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 1.125rem;
+    }
+    
+    .author-text p:first-child {
+      color: var(--primary-foreground);
+      font-weight: 600;
+    }
+    
+    .author-text p:last-child {
+      color: hsl(210 40% 98% / 0.6);
+      font-size: 0.875rem;
+    }
+    
+    .author-divider {
+      display: none;
+      width: 1px;
+      height: 2.5rem;
+      background-color: hsl(210 40% 98% / 0.2);
+    }
+    
+    @media (min-width: 640px) {
+      .author-divider {
+        display: block;
+      }
+    }
+    
+    .community-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: hsl(210 40% 98% / 0.8);
+    }
+    
+    .community-info img {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    
+    .community-info span {
+      font-size: 0.875rem;
+    }
+    
+    /* Opening Section */
+    .opening-section {
+      padding: 4rem 0;
+      background-color: var(--background);
+    }
+    
+    .opening-card {
+      padding: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .opening-card {
+        padding: 2.5rem;
+      }
+    }
+    
+    .opening-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    
+    .opening-bar {
+      width: 4px;
+      min-height: 200px;
+      background-color: var(--accent);
+      border-radius: 9999px;
+      flex-shrink: 0;
+    }
+    
+    .opening-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .opening-title {
+        font-size: 1.875rem;
+      }
+    }
+    
+    .opening-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: var(--muted-foreground);
+      line-height: 1.75;
+    }
+    
+    .opening-text strong {
+      color: var(--foreground);
+    }
+    
+    .opening-text p:last-child {
+      padding-top: 0.5rem;
+      color: var(--foreground);
+      font-weight: 500;
+    }
+    
+    /* Info Section */
+    .info-section {
+      padding: 4rem 0;
+      background-color: hsl(214 32% 91% / 0.3);
+    }
+    
+    .info-section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--foreground);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .info-section h2 {
+        font-size: 1.875rem;
+      }
+    }
+    
+    .info-section > .section-container > p {
+      color: var(--muted-foreground);
+      text-align: center;
+      margin-bottom: 2.5rem;
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .info-grid {
+      display: grid;
+      gap: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+    }
+    
+    .info-card {
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    
+    .info-card:hover {
+      border-color: hsl(38 92% 50% / 0.5);
+    }
+    
+    .info-card-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    
+    .info-icon {
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--radius);
+      background-color: hsl(222 47% 18% / 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.3s ease;
+    }
+    
+    .info-card:hover .info-icon {
+      background-color: hsl(38 92% 50% / 0.2);
+    }
+    
+    .info-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: var(--primary);
+      transition: all 0.3s ease;
+    }
+    
+    .info-card:hover .info-icon svg {
+      color: var(--accent);
+    }
+    
+    .info-card h3 {
+      font-weight: 600;
+      color: var(--foreground);
+      margin-bottom: 0.25rem;
+    }
+    
+    .info-card p {
+      color: var(--muted-foreground);
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+    
+    .consent-notice {
+      margin-top: 2.5rem;
+      padding: 1rem 1.5rem;
+      border-radius: var(--radius);
+      background-color: hsl(222 47% 18% / 0.05);
+      border: 1px solid hsl(222 47% 18% / 0.1);
+      text-align: center;
+    }
+    
+    .consent-notice p {
+      color: var(--foreground);
+      font-size: 0.875rem;
+    }
+    
+    @media (min-width: 640px) {
+      .consent-notice p {
+        font-size: 1rem;
+      }
+    }
+    
+    .consent-notice strong {
+      font-weight: 600;
+    }
+    
+    /* Benefits Section */
+    .benefits-section {
+      padding: 4rem 0;
+      background-color: var(--background);
+    }
+    
+    .benefits-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    
+    .benefits-badge {
+      display: inline-block;
+      padding: 0.25rem 1rem;
+      border-radius: 9999px;
+      background-color: hsl(38 92% 50% / 0.1);
+      color: var(--accent);
+      font-weight: 500;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+    
+    .benefits-header h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .benefits-header h2 {
+        font-size: 1.875rem;
+      }
+    }
+    
+    .benefits-header p {
+      color: var(--muted-foreground);
+      max-width: 36rem;
+      margin: 0 auto;
+    }
+    
+    .benefits-grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .benefits-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    
+    .benefit-card {
+      padding: 1.5rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .benefit-card:hover {
+      border-color: hsl(38 92% 50% / 0.5);
+    }
+    
+    .benefit-icon {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 1rem;
+      background-color: hsl(38 92% 50% / 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      transition: all 0.3s ease;
+    }
+    
+    .benefit-card:hover .benefit-icon {
+      background-color: hsl(38 92% 50% / 0.2);
+    }
+    
+    .benefit-icon svg {
+      width: 1.75rem;
+      height: 1.75rem;
+      color: var(--accent);
+    }
+    
+    .benefit-card h3 {
+      font-weight: 600;
+      color: var(--foreground);
+      margin-bottom: 0.5rem;
+    }
+    
+    .benefit-card p {
+      color: var(--muted-foreground);
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+    
+    .contribution-note {
+      margin-top: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      text-align: center;
+    }
+    
+    .contribution-note svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+    
+    .contribution-note p {
+      color: var(--muted-foreground);
+      font-size: 0.875rem;
+    }
+    
+    @media (min-width: 640px) {
+      .contribution-note p {
+        font-size: 1rem;
+      }
+    }
+    
+    .contribution-note strong {
+      color: var(--foreground);
+    }
+    
+    /* Form Section */
+    .form-section {
+      padding: 4rem 0;
+      background-color: hsl(214 32% 91% / 0.3);
+    }
+    
+    .form-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .form-header h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .form-header h2 {
+        font-size: 1.875rem;
+      }
+    }
+    
+    .form-header p {
+      color: var(--muted-foreground);
+      max-width: 36rem;
+      margin: 0 auto 1.5rem;
+    }
+    
+    .form-container {
+      overflow: hidden;
+    }
+    
+    .form-toolbar {
+      background-color: hsl(222 47% 18% / 0.05);
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .toolbar-dot {
+      width: 0.75rem;
+      height: 0.75rem;
+      border-radius: 50%;
+    }
+    
+    .toolbar-dot.red {
+      background-color: hsl(0 84% 60% / 0.6);
+    }
+    
+    .toolbar-dot.yellow {
+      background-color: hsl(38 92% 50% / 0.6);
+    }
+    
+    .toolbar-dot.green {
+      background-color: hsl(142 71% 45% / 0.6);
+    }
+    
+    .toolbar-text {
+      margin-left: 1rem;
+      font-size: 0.875rem;
+      color: var(--muted-foreground);
+      font-family: monospace;
+    }
+    
+    .form-embed {
+      background-color: var(--card);
+    }
+    
+    .form-embed iframe {
+      width: 100%;
+      border: none;
+    }
+    
+    .form-alternative {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    
+    .form-alternative p {
+      color: var(--muted-foreground);
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+    
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      border: 1px solid var(--primary);
+      border-radius: var(--radius);
+      color: var(--primary);
+      background-color: transparent;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    
+    .btn-outline:hover {
+      background-color: var(--primary);
+      color: var(--primary-foreground);
+    }
+    
+    .btn-outline svg {
+      width: 1rem;
+      height: 1rem;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 2rem 0;
+      background-color: var(--primary);
+    }
+    
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    
+    @media (min-width: 640px) {
+      .footer-content {
+        flex-direction: row;
+      }
+    }
+    
+    .footer-author {
+      text-align: center;
+    }
+    
+    @media (min-width: 640px) {
+      .footer-author {
+        text-align: left;
+      }
+    }
+    
+    .footer-author p:first-child {
+      color: var(--primary-foreground);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+    }
+    
+    .footer-author p:last-child {
+      color: hsl(210 40% 98% / 0.6);
+      font-size: 0.875rem;
+    }
+    
+    .footer-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      color: hsl(210 40% 98% / 0.8);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s ease;
+    }
+    
+    .footer-link:hover {
+      color: var(--accent);
+    }
+    
+    .footer-link svg {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+    
+    .footer-bottom {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid hsl(210 40% 98% / 0.1);
+      text-align: center;
+    }
+    
+    .footer-bottom p {
+      color: hsl(210 40% 98% / 0.5);
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg-pattern">
+      <div class="hero-bg-circle-1"></div>
+      <div class="hero-bg-circle-2"></div>
+    </div>
+    
+    <div class="section-container hero-content">
+      <!-- Badge -->
+      <div class="hero-badge animate-fade-in">
+        <span class="hero-badge-inner">
+          <i data-lucide="graduation-cap" style="width: 16px; height: 16px;"></i>
+          Penelitian Tesis
+        </span>
+      </div>
+      
+      <!-- Title -->
+      <h1 class="hero-title animate-fade-in-up">
+        Kuesioner Penelitian
+        <span class="hero-title-accent">Adopsi Generative AI</span>
+      </h1>
+      
+      <!-- Subtitle -->
+      <p class="hero-subtitle animate-fade-in-delay-1">
+        Dampak terhadap Kinerja Middle Manager di Industri Kreatif Digital Kota Malang
+      </p>
+      
+      <!-- Author Info -->
+      <div class="hero-author animate-fade-in-delay-2">
+        <div class="author-info">
+          <div class="author-avatar">
+            <span>M</span>
+          </div>
+          <div class="author-text">
+            <p>Mustofin</p>
+            <p>Mahasiswa Pascasarjana</p>
+          </div>
+        </div>
+        <div class="author-divider"></div>
+        <div class="community-info">
+          <img src="/agile-malang-logo.png" alt="Agile Malang">
+          <span>Komunitas Agile Malang</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Opening Section -->
+  <section class="opening-section">
+    <div class="section-container">
+      <div class="card-elevated opening-card">
+        <div class="opening-content">
+          <div class="opening-bar"></div>
+          <div>
+            <h2 class="opening-title">
+              Yth. Rekan-rekan Praktisi Industri Kreatif Digital,
+            </h2>
+            
+            <div class="opening-text">
+              <p>
+                Perkenalkan, saya <strong>Mustofin</strong>, salah satu anggota Komunitas Agile Malang dan mahasiswa pascasarjana yang sedang menyusun penelitian tesis.
+              </p>
+              
+              <p>
+                Penelitian ini bertujuan untuk mengkaji <strong>dampak adopsi Generative Artificial Intelligence (AI)</strong> terhadap kinerja middle manager di industri kreatif digital, khususnya di wilayah Kota Malang.
+              </p>
+              
+              <p>
+                Penelitian ini diharapkan dapat memberikan <strong>insight berbasis data</strong> yang bermanfaat bagi pengembangan praktik manajerial, pengambilan keputusan, serta ekosistem digital kreatif di Malang.
+              </p>
+              
+              <p>
+                Partisipasi Anda sebagai praktisi sangat berarti, karena pengalaman dan perspektif Anda akan menjadi dasar utama dalam menghasilkan rekomendasi yang relevan dan aplikatif bagi industri.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Info Section -->
+  <section class="info-section">
+    <div class="section-container">
+      <h2>Informasi Kuesioner</h2>
+      <p>Berikut adalah informasi penting sebelum Anda mengisi kuesioner penelitian ini</p>
+      
+      <div class="info-grid">
+        <div class="card-elevated info-card">
+          <div class="info-card-content">
+            <div class="info-icon">
+              <i data-lucide="clock"></i>
+            </div>
+            <div>
+              <h3>Waktu pengisian</h3>
+              <p>± 8–10 menit</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-elevated info-card">
+          <div class="info-card-content">
+            <div class="info-icon">
+              <i data-lucide="target"></i>
+            </div>
+            <div>
+              <h3>Responden</h3>
+              <p>Middle manager di industri kreatif digital (software, startup, game, aplikasi, digital agency, IT services)</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-elevated info-card">
+          <div class="info-card-content">
+            <div class="info-icon">
+              <i data-lucide="shield"></i>
+            </div>
+            <div>
+              <h3>Kerahasiaan data</h3>
+              <p>Seluruh jawaban bersifat rahasia dan hanya digunakan untuk kepentingan akademik</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-elevated info-card">
+          <div class="info-card-content">
+            <div class="info-icon">
+              <i data-lucide="bar-chart-3"></i>
+            </div>
+            <div>
+              <h3>Hasil penelitian</h3>
+              <p>Akan disajikan dalam bentuk laporan ringkas dan insight agregat, tanpa menyebut identitas individu atau perusahaan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="consent-notice">
+        <p>
+          Dengan melanjutkan pengisian kuesioner ini, Anda menyatakan <strong>bersedia berpartisipasi secara sukarela</strong> dalam penelitian ini.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits Section -->
+  <section class="benefits-section">
+    <div class="section-container">
+      <div class="benefits-header">
+        <span class="benefits-badge">Apresiasi Partisipasi</span>
+        <h2>Manfaat Partisipasi Anda</h2>
+        <p>Sebagai bentuk apresiasi atas kontribusi Anda, responden akan memperoleh:</p>
+      </div>
+      
+      <div class="benefits-grid">
+        <div class="card-elevated benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="file-text"></i>
+          </div>
+          <h3>Laporan Insight</h3>
+          <p>"State of AI Adoption in Malang's Digital Creative Industry (2025)" (ringkas 3–5 halaman)</p>
+        </div>
+        
+        <div class="card-elevated benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="zap"></i>
+          </div>
+          <h3>Akses Awal Hasil Penelitian</h3>
+          <p>Dapat digunakan sebagai bahan benchmarking dan pengambilan keputusan manajerial</p>
+        </div>
+        
+        <div class="card-elevated benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="calendar-check"></i>
+          </div>
+          <h3>Prioritas Undangan Event</h3>
+          <p>Workshop dan event Komunitas Agile Malang (jika tersedia)</p>
+        </div>
+      </div>
+      
+      <div class="contribution-note">
+        <i data-lucide="heart"></i>
+        <p>Partisipasi Anda juga merupakan <strong>kontribusi nyata</strong> dalam membangun data dan pengetahuan bagi ekosistem digital Malang.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Form Section -->
+  <section id="form" class="form-section">
+    <div class="section-container">
+      <div class="form-header">
+        <h2>Isi Kuesioner</h2>
+        <p>Silakan isi kuesioner di bawah ini. Estimasi waktu pengisian ± 8–10 menit.</p>
+      </div>
+      
+      <div class="card-elevated form-container">
+        <div class="form-toolbar">
+          <div class="toolbar-dot red"></div>
+          <div class="toolbar-dot yellow"></div>
+          <div class="toolbar-dot green"></div>
+          <span class="toolbar-text">Google Forms - Kuesioner Penelitian</span>
+        </div>
+        
+        <div class="form-embed">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfV09SGJzUZwRKk1_kX4JKPGfMW7l7P5Eynj5L27TKBR_2BYw/viewform?embedded=true"
+            height="3200"
+            title="Kuesioner Penelitian"
+          >
+            Memuat…
+          </iframe>
+        </div>
+      </div>
+      
+      <div class="form-alternative">
+        <p>Mengalami kendala dengan form di atas?</p>
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfV09SGJzUZwRKk1_kX4JKPGfMW7l7P5Eynj5L27TKBR_2BYw/viewform" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="btn-outline"
+        >
+          Buka Kuesioner di Google Forms
+          <i data-lucide="external-link"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-content">
+        <div class="footer-author">
+          <p>Mustofin</p>
+          <p>Mahasiswa Pascasarjana • Komunitas Agile Malang</p>
+        </div>
+        
+        <div>
+          <a href="https://mustofin.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+            mustofin.com
+            <i data-lucide="external-link"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Mustofin. Penelitian ini dilakukan untuk kepentingan akademik.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
