@@ -13,7 +13,7 @@ const Index = () => {
         <title>Kuesioner Penelitian AI - Mustofin | Tesis Pascasarjana</title>
         <meta
           name="description"
-          content="Kuesioner penelitian tesis tentang dampak adopsi Generative AI terhadap kinerja middle manager di industri kreatif digital Kota Malang. Oleh Mustofin, Komunitas Agile Malang."
+          content="Kuesioner penelitian tentang dampak adopsi Generative AI terhadap kinerja middle manager di industri kreatif digital Kota Malang. Oleh Mustofin, Komunitas Agile Malang."
         />
         <meta name="author" content="Mustofin" />
         <link rel="canonical" href="https://kuesioner.mustofin.com" />

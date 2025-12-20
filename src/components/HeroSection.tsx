@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="flex justify-center mb-6 animate-fade-in">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground text-sm font-medium">
             <GraduationCap className="w-4 h-4" />
-            Penelitian Tesis
+            Penelitian
           </span>
         </div>
 
